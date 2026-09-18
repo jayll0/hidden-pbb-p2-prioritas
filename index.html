@@ -7,10 +7,12 @@
   <style>
     html, body { margin: 0; height: 100%; }
     iframe { border: 0; width: 100%; height: 100%; display: block; }
+    [class*="netlify-badge"], #netlify-badge,
+    a[href*="netlify.com"] { display: none !important; }
   </style>
 </head>
 <body>
-  <iframe src="https://prioritas-penagihan-pbb.streamlit.app/?embed=true"
+  <iframe src="https://prioritas-penagihan-pbb.streamlit.app/?embed=true&embed_options=hide_toolbar=true"
           allow="clipboard-write"></iframe>
 </body>
 </html>
